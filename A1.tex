@@ -1,4 +1,4 @@
-\title{A Very Simple \LaTeXe{} Template}
+\title{Assignment 1}
 
 \date{\today}
 
@@ -8,16 +8,23 @@
 \maketitle
 
 
-\section{Introduction}
-This is time for all good men to come to the aid of their party!
+\section*{Question 1}
+\begin{displaymath}
+\begin{array}{|c c|c|c|c|}
 
-\paragraph{Outline}
-The remainder of this article is organized as follows.
-Section~\ref{previous work} gives account of previous work.
-Our new and exciting results are described in Section~\ref{results}.
-Finally, Section~\ref{conclusions} gives the conclusions.
+P & Q & (P \land Q) & (P \lor Q) & (P \land Q) \Rightarrow (P \lor Q)\\
+\hline 
+T & T & T & T & T\\
+T & F & F & T & T\\
+F & T & F & T & T\\
+F & F & F & F & T\\
+\end{array}
+\end{displaymath}
 
-\section{Previous work}\label{previous work}
+\paragraph{Conclution}
+This truth table demonstrates that no matter the states of $P$ and $Q$ the results will always be true for the logical expression:\\ $(P \land Q) \Rightarrow (P \lor Q)$.
+
+\section*{Question 2}
 A much longer \LaTeXe{} example was written by Gil~\cite{Gil:02}.
 
 \section{Results}\label{results}
